@@ -1,0 +1,27 @@
+{
+  "name": "ksl-calculo-computacao",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KSL — Revisão de Base para Cálculo em Computação: documento em formato de página web com representações matemáticas interativas.",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "cytoscape": "^3.30.2",
+    "cytoscape-dagre": "^2.5.0",
+    "d3": "^7.9.0",
+    "dagre": "^0.8.5",
+    "express": "^4.21.2",
+    "function-plot": "^1.25.1",
+    "jsxgraph": "^1.10.1",
+    "katex": "^0.16.11",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-texmath": "^1.0.0",
+    "plotly.js-dist-min": "^2.35.2"
+  }
+}
