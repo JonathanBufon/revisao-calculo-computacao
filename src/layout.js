@@ -109,7 +109,7 @@ function page(doc, options = {}) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${escapeHtml(docTitle)}</title>
+  <title>Revisão de Base para Cálculo em Computação</title>
   <meta name="description" content="Revisão de base para Cálculo em Computação: álgebra, funções, domínio, imagem e gráficos, com representações interativas.">
   <link rel="stylesheet" href="${at('vendor/katex/katex.min.css')}">
   <link rel="stylesheet" href="${at('vendor/jsxgraph/jsxgraph.css')}">
